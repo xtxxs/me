@@ -826,7 +826,7 @@ button {
     width: 18rem
 }
 
-.gallery_card:before {
+.slideshow-container:before {
     -webkit-animation: spin_photo 4s linear infinite;
     animation: spin_photo 4s linear infinite;
     background: repeating-conic-gradient(from var(--a),var(--theme) 0,var(--theme) 5%,transparent 5%,transparent 40%,var(--theme) 50%);
@@ -844,7 +844,7 @@ button {
     width: 17.6rem
 }
 
-.gallery_card img {
+.slideshow-container img {
     border-radius: .6rem;
     height: 26rem;
     margin: .5rem;
